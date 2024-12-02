@@ -30,9 +30,7 @@ func main() {
 			numbers = append(numbers, a)
 		}
 
-		fmt.Println(numbers)
 		if valid := testLevels(numbers, 0); valid {
-			fmt.Println(valid)
 			count++
 		}
 	}
